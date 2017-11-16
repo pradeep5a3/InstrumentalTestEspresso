@@ -41,6 +41,8 @@ public class MainActivityInstrumentationTest {
 
         String expectedText = "Hello, " + STRING_TO_BE_TYPED + "!";
         onView(withId(R.id.textView)).check(matches(withText(expectedText))); //line 3
+        
+         Log.d("MainActivity","New line code from git");
     }
 
 }
