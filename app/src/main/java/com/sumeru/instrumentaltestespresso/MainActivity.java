@@ -19,6 +19,7 @@ public class MainActivity extends Activity {
         TextView textView = (TextView) findViewById(R.id.textView);
         EditText editText = (EditText) findViewById(R.id.editText);
         textView.setText("Hello, " + editText.getText().toString() + "!");
+        Log.d("MainActivity","New line code");
     }
 
 //    public void sayHello(View view){
